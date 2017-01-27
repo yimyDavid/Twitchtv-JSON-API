@@ -1,0 +1,74 @@
+$onLine: #5cb85c;
+$onLineHover:#43A047;
+$offLine: #FF8A80;
+$offLineHover: #FF5252;
+
+body{
+   background-color:#B0BEC5;
+}
+.well{
+  height: 220px;
+}
+.all-button{
+  padding: 15px;
+}
+#online{
+  i{
+    color: $onLine;
+  }
+}
+
+#offline{
+  i{
+    color: $offLine;
+  }
+}
+
+.btn-group{
+  margin-top: 18px;
+}
+.title{
+  font-family: 'Merriweather', serif;
+  font-size: 4rem
+}
+p, img{
+  display: table-cell;
+  height: 60px; 
+  vertical-align: middle;
+  color: white;
+}
+img{
+  margin-left: -15px;
+}
+
+.row-channel-on{
+  margin: 1px 0;
+  background-color: $onLine;
+}
+
+#twitch-channels{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 5px #37474F;
+  background-color: #ECEFF1;
+ }
+
+.row-channel-off{
+   margin: 1px 0;
+  background-color: $offLine;
+}
+.row-channel-on:hover{
+  background-color: $onLineHover;
+}
+.row-channel-off:hover{
+   background-color: $offLineHover;
+}
+
+.hide-off{
+  display: block;
+}
+.hide-on{
+  display: block;
+}
+
